@@ -1,0 +1,7 @@
+# Allow access to uploaded files
+Options -Indexes
+<FilesMatch "\.(jpg|jpeg|png|gif|pdf)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
